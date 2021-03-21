@@ -1,1 +1,3 @@
-My name is Spencer Burton. I'm a junior at Tooele High School and I am currently taking a programming course in Python. In this course I created many programs and learned many principles and fundamentals about coding and computers in general. In the future, I would consider programming as a career choice I would like to do.
+My name is Spencer Burton. I'm a junior at Tooele High School and I am currently taking a programming course in Python. 
+In this course I created many programs and learned many principles and fundamentals about coding and computers in general. In the future, 
+I would consider programming as a career choice I would like to do.
