@@ -96,6 +96,7 @@ class Chess(object):
         if move in legal_moves:
             castle = self.is_castling(piece, move)
             if castle:
+                print("castling")
                 # Move king
                 self.board.move(piece.pos.x, piece.pos.y, move.x, move.y)
                 # Move rook
@@ -107,11 +108,13 @@ class Chess(object):
                 piece.castled()
 
             elif self.is_en_passant(piece, move):
+                print("en passant")
                 # Remove other Pawn
                 self.board.set_at(move.x, piece.pos.y, piece_from_name("", ""))
                 # Move Pawn
                 self.board.move(piece.pos.x, piece.pos.y, move.x, move.y)
             else:
+                print("normal move")
                 self.board.move(piece.pos.x, piece.pos.y, move.x, move.y)
             self.move_num += 1
             self.turn = opposite_color(self.turn)
@@ -126,7 +129,7 @@ class Chess(object):
             diff = piece.pos.x - move.x
             if diff > 1:  # Queen-side castle
                 return 1
-            elif diff < 1:  # King-side castle
+            elif diff < -1:  # King-side castle
                 return -1
 
         return False
