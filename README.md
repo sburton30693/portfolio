@@ -2,22 +2,20 @@
 
 The projects contained are described below:
 
-## War
-This is a recreation of the card game war in the console.
+## Shmup
+This is a shmup style game made using the pygame module. It has sounds, music, and animations.
+It is one of the earliest projects on here.
 
-## Oregon Trail
-This is a reacreation of the 1990 version of the oregon trial game.
-It uses a lot of input and is made for the console as well.
+## Platformer
+This is a doodle-jump style platformer that was made using the pygame module.
 
-## Pizza Order
-This project is a mock pizza ordering form. It was created with the
-tkinter python module and uses many checkbox, radio button, and text type widgets.
+## Minesweeper
+This is a clone of the classic game Minesweeper using the tkinter GUI module.
 
-## Calculator
-This project is a simple calculator also created in tkinter. This one uses
-mostly buttons and supports basic operations as well as decimal numbers.
+## Chess
+This is a chess game made using the tkinter GUI module. It contains various versions within it.
+There is a Player versus Player game, a Player versus AI, and an AI versus AI version.
 
-## Pygame Shmup
-This project uses the pygame module. It is a basic shooter with graphics and
-sounds, mostly from opengameart-dot-org. It showcases many features within
-games like collision, scores, health, and powerups.
+## Lunar Lander
+This is a recreation of the Lunar Lander style game using the pygame module. All graphics aside from the background
+were made by me.
